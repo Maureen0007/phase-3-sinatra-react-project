@@ -1,5 +1,7 @@
 puts "🌱 Seeding spices..."
-
+Author.destroy_all
+Book.destroy_all
+Chapter.destroy_all
 # Seed your database here
 # book
 Book.create(name:"Milk and honey", author_id:3 , image:"https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")

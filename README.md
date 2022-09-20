@@ -1,15 +1,15 @@
-# Phase 3 Project Guidelines
+# Phase 3 Project Sinatra
 
 ## Learning Goals
 
 - Build a web basic API with Sinatra and Active Record to support a React
   frontend
+  The ffront-end githut link is ["https://github.com/Maureen0007/Front-end"]
 
 ## Introduction
 
-Congrats on getting through all the material for Phase 3! Now's the time to put
-it all together and build something from scratch to reinforce what you know and
-expand your horizons.
+This is a book api project that contains book, author and chapter models and migrations.
+It has a database which has variou relations ammong models and classes.
 
 The focus of this project is **building a Sinatra API backend** that uses
 **Active Record** to access and persist data in a database, which will be used
@@ -67,32 +67,7 @@ $ bundle exec rake server
 This will run your server on port
 [http://localhost:9292](http://localhost:9292).
 
-### Frontend Setup
 
-Your backend and your frontend should be in **two different repositories**.
-
-Create a new repository in a **separate folder** with a React app for your
-frontend. To do this, `cd` out of the backend project directory, and use
-[create-react-app][] to generate the necessary code for your React frontend:
-
-```console
-$ npx create-react-app my-app-frontend
-```
-
-After creating the project locally, you should also
-[create a repository on GitHub][create repo] to host your repo and help
-collaborate, if you're working with a partner.
-
-### Fetch Example
-
-Your React app should make fetch requests to your Sinatra backend! Here's an
-example:
-
-```js
-fetch("http://localhost:9292/test")
-  .then((r) => r.json())
-  .then((data) => console.log(data));
-```
 
 ## Project Tips
 
